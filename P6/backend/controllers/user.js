@@ -46,7 +46,7 @@ exports.login = (req, res, next) => {
                 { userId: user._id },
                 // Modifier avec bcrypt ou autre phrase
                 `${config.JWT_TOKEN_SECRET}`, 
-                { expiresIn: '24h' }
+                { expiresIn: '23h' }
               )
             });
           })
