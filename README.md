@@ -23,10 +23,13 @@ Use `Ctrl+C` in the terminal to stop the local server.
 ## Backend ##
 
 Run `npm i express`, then in the config.js file replace the DB_USERNAME, DB_PASSWORD, DATA_BASE_NAME by your own mongoDB username, password and database name.
-Then run `node server`. It should work on port 3000.
 
 For example :
 
-DB_USERNAME : process.env.DB_USERNAME || 'username',
-DB_PASSWORD : process.env.DB_PASSWORD || 'password',
-DATA_BASE_NAME : process.env.DATA_BASE_NAME || 'database_name'.
+DB_USERNAME : process.env.DB_USERNAME || `username`,
+DB_PASSWORD : process.env.DB_PASSWORD || `password`,
+DATA_BASE_NAME : process.env.DATA_BASE_NAME || `database_name`.
+
+## Usage ##
+
+Then run `node server`. It should work on port 3000.
